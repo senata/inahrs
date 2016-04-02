@@ -1,0 +1,82 @@
+/* countdown */
+#timer-wrap {
+    text-align: center;
+}
+#timer {
+    width: 300px;
+    height: 58px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 20px;
+}
+.swMain ul.anchor li a {
+    height: auto;
+}
+/* untuk tab yang udah dilewati namun belum di jawab */
+.swMain ul.anchor li a.done {
+    color: grey;
+    background: #dedede;
+    border: 1px solid #8CC63F;
+}
+
+.swMain ul.anchor li a.done:hover {
+    background: darkgrey;
+}
+
+/* untuk tab active */
+.swMain ul.anchor li a.selected {
+    color: #F8F8F8;
+    background: #357ABD !important;
+    border: 1px solid #EA8511;
+    cursor: text;
+    -moz-box-shadow: 1px 5px 10px #888;
+    -webkit-box-shadow: 1px 5px 10px #888;
+    box-shadow: 1px 5px 10px #888;
+}
+
+/* untuk tab yang sudah dijawab */
+.swMain ul.anchor li a.answered {
+    color: #F4F2F2;
+    background: green !important;
+
+}
+
+
+p.question {
+    font-size: 1rem;
+}
+
+p.question img {
+    max-width: 700px;
+}
+
+#wizard ul {
+    height: 800px;
+    overflow:scroll;
+}
+
+.answer label {
+    color: black;
+	display: inline !important;
+}
+.answer label:hover {
+    text-decoration: underline !important;
+}
+.answer textarea {
+    background-color: white;
+    border: 1px solid grey;
+    height: 120px;
+}
+
+.answer input {
+    background-color: white;
+    border: 1px solid grey;
+    height: auto;
+    width: 300px;
+    padding: 2px;
+}
+
+.content img {
+    cursor: pointer;
+}
+
