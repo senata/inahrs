@@ -127,6 +127,6 @@ $config = array(
  * https://www.google.com/recaptcha/
  */
 $config['recaptcha'] = array(
-	'site_key'		=> '6LdqpRsTAAAAAFIatZVjyFkEyOUM_o9phhsut6TL',
-	'secret_key'	=> '6LdqpRsTAAAAAILK5qvtKymYA7P_khMIFe0xrZbC',
+	'site_key'		=> '6LeMYxwTAAAAAL4ZDCs-UHgH5Vuvh_Cnb2Qemoos',
+	'secret_key'	=> '6LeMYxwTAAAAALtvyMFdRqqG4KatCppduewF9oJI',
 );
